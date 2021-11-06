@@ -1,0 +1,22 @@
+public class A2
+{
+    public void show(int x)
+    {
+        System.out.println("Inside A with argument "+x);
+    }
+    public void show(String s)
+    {
+        System.out.println("Inside A with arguments "+s);
+    }
+}
+class B2 extends A2{
+    public void show(int x)
+    {
+        System.out.println("Inside B with argument"+x);
+    }
+    public void show(double d)
+    {
+        System.out.println("Inside B with arguments "+d);
+    }
+}
+
