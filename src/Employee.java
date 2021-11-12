@@ -2,13 +2,15 @@ public class Employee {
     private int age;
     private String name;
     private int id;
-    private static int nextId=1;
+    public static int nextId=1;
 
     public Employee(int a,String n)
     {
         age=a;
         name=n;
+        Employee.nextId=10;
         id=nextId++;
+
     }
     public void show()
     {
